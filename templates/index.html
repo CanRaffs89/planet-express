@@ -8,5 +8,13 @@
 <div class="container">
     {% include 'navbar.html' %}
     <img id="header-img" src="{{ url_for('static', filename='img/header.png') }}" alt="">
+    <div class="header-text">
+        <div class="header-text-inner">
+            <h1 id="header-text-top">Our crew is replaceable</h1>
+            <span></span>
+            <h1 id="header-text-bottom">Your package isn't</h1>
+            <button>Get a Quote</button>
+        </div>
+    </div>
 </div>
 {% endblock %}

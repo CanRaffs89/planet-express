@@ -16,8 +16,7 @@ body {
 
 .container {
   width: 100%;
-  height: 100%;
-  position: relative; }
+  height: 100%; }
 
 nav {
   width: 100%;
@@ -54,87 +53,78 @@ nav {
 
   #logo-text-right {
     margin-left: 15px; } }
-#header-img {
+.header-container {
   width: 100%;
-  height: 678px;
-  object-fit: cover;
-  object-position: center top; }
-
-.header-text {
-  position: absolute;
-  height: 300px;
-  top: 40%;
-  width: 100%;
-  padding: 10px 0;
-  background-color: rgba(28, 27, 33, 0.7); }
-  .header-text .header-text-inner {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 30%;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0 auto; }
-    .header-text .header-text-inner span {
-      background-color: #fff;
-      height: 1px;
-      width: 100%; }
-    .header-text .header-text-inner #header-text-top, .header-text .header-text-inner #header-text-bottom {
-      letter-spacing: 10px;
-      text-transform: uppercase;
-      text-align: center; }
-    .header-text .header-text-inner #header-text-top {
-      font-size: 28px;
-      font-weight: 300; }
-    .header-text .header-text-inner #header-text-bottom {
-      font-size: 30px;
-      font-weight: 700; }
-    .header-text .header-text-inner button {
-      height: 60px;
-      width: 70%;
-      background-color: #2B2A32;
-      color: #fff;
-      font-size: 22px;
-      font-family: 'Oswald', sans-serif;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      border: 1px solid #fff; }
-
-@media (max-width: 768px) {
-  #header-img {
-    height: 400px; }
-
-  .header-text {
-    height: 250px; }
-    .header-text .header-text-inner {
+  height: 100%;
+  position: relative; }
+  .header-container #header-img {
+    width: 100%;
+    height: 678px;
+    object-fit: cover;
+    object-position: center top; }
+  .header-container .header-text {
+    position: absolute;
+    height: 370px;
+    top: 25%;
+    width: 100%;
+    padding: 10px 0; }
+    .header-container .header-text .header-text-inner {
       display: flex;
       flex-direction: column;
+      height: 100%;
       width: 30%;
       justify-content: space-evenly;
-      align-items: center; }
-      .header-text .header-text-inner span {
+      align-items: center;
+      margin: 0 auto; }
+      .header-container .header-text .header-text-inner span {
         background-color: #fff;
         height: 1px;
-        width: 80%; }
-      .header-text .header-text-inner #header-text-top, .header-text .header-text-inner #header-text-bottom {
-        letter-spacing: 6px;
-        text-transform: uppercase;
+        width: 100%; }
+      .header-container .header-text .header-text-inner #header-text-top, .header-container .header-text .header-text-inner #header-text-bottom {
+        letter-spacing: 10px;
         text-align: center; }
-      .header-text .header-text-inner #header-text-top {
-        font-size: 20px;
+      .header-container .header-text .header-text-inner #header-text-top {
+        font-size: 40px;
         font-weight: 300; }
-      .header-text .header-text-inner #header-text-bottom {
-        font-size: 22px;
-        font-weight: 700; }
-      .header-text .header-text-inner button {
-        height: 40px;
+      .header-container .header-text .header-text-inner #header-text-bottom {
+        font-size: 42px;
+        font-weight: 700;
+        font-style: italic; }
+      .header-container .header-text .header-text-inner button {
+        height: 60px;
         width: 70%;
-        background-color: #1C1B21;
+        background-color: #2B2A32;
         color: #fff;
-        font-size: 14px;
+        font-size: 22px;
         font-family: 'Oswald', sans-serif;
         letter-spacing: 4px;
         text-transform: uppercase;
-        border: 1px solid #fff; } }
+        border: 1px solid #fff; }
+
+@media (max-width: 1310px) {
+  .header-container .header-text .header-text-inner {
+    width: 45%; }
+    .header-container .header-text .header-text-inner span {
+      width: 80%; }
+    .header-container .header-text .header-text-inner #header-text-top {
+      font-size: 35px; }
+    .header-container .header-text .header-text-inner #header-text-bottom {
+      font-size: 37px; } }
+@media (max-width: 768px) {
+  .header-container #header-img {
+    height: 450px; }
+  .header-container .header-text {
+    height: 275px;
+    top: 20%; }
+    .header-container .header-text .header-text-inner {
+      width: 75%; }
+      .header-container .header-text .header-text-inner #header-text-top {
+        font-size: 20px; }
+      .header-container .header-text .header-text-inner #header-text-bottom {
+        font-size: 22px; }
+      .header-container .header-text .header-text-inner button {
+        height: 50px;
+        width: 60%;
+        font-size: 12px; } }
 
 /*# sourceMappingURL=main.css.map */

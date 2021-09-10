@@ -19,19 +19,31 @@ body {
   height: 100%; }
 
 nav {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #fff; }
-  nav h1 {
-    font-weight: 400;
-    letter-spacing: 10px;
-    font-family: 'Oswald', sans-serif; }
-  nav img {
-    height: 52px;
-    width: auto; }
+  width: 100%; }
+  nav .nav-top {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    nav .nav-top h1 {
+      font-weight: 400;
+      letter-spacing: 10px;
+      font-family: 'Oswald', sans-serif; }
+    nav .nav-top img {
+      height: 52px;
+      width: auto; }
+  nav .nav-bottom {
+    height: 25px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    nav .nav-bottom p {
+      font-size: 14px;
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: 7px;
+      color: #1C1B21; }
 
 #logo-text-left {
   margin-right: 30px; }
@@ -40,13 +52,18 @@ nav {
   margin-left: 30px; }
 
 @media (max-width: 768px) {
-  nav {
+  nav .nav-top {
     height: 50px; }
-    nav h1 {
+    nav .nav-top h1 {
       font-size: 14px;
       letter-spacing: 6px; }
-    nav img {
+    nav .nav-top img {
       height: 30px; }
+  nav .nav-bottom {
+    height: 22px; }
+    nav .nav-bottom p {
+      font-size: 10px;
+      letter-spacing: 5.28px; }
 
   #logo-text-left {
     margin-right: 15px; }

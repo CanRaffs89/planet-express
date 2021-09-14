@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="71px" viewBox="0 0 67 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_next_day</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Macbook-Half-Size-Copy" transform="translate(-427.000000, -163.000000)">
+            <g id="next_day" transform="translate(329.000000, 166.000000)">
+                <g id="icon_next_day" transform="translate(99.000000, 0.000000)">
+                    <path id="Line" d="M33,2 L30.5,2 L30,2 L30,1 L30.5,1 L33,1 L33,-3 L42,1.5 L33,6 L33,2 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M32.5,1 C14.5507456,1 0,15.5507456 0,33.5 C0,51.4492544 14.5507456,66 32.5,66 C50.4492544,66 65,51.4492544 65,33.5" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M0,36 C0,53.1208272 14.5507456,67 32.5,67 C50.4492544,67 65,53.1208272 65,36" id="Path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                    <polyline id="Path-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="18 16 32.8296051 38.3375549 51.8836823 30.7690125"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

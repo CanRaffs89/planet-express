@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="72px" viewBox="0 0 81 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_drop_off</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Macbook-Half-Size-Copy" transform="translate(-140.000000, -464.000000)">
+            <g id="drop_off" transform="translate(44.000000, 464.000000)">
+                <g id="icon_drop_off" transform="translate(97.000000, 0.000000)">
+                    <polygon id="Path-4" fill="#FFFFFF" points="39.2722778 71 78 58 78 10 39.2722778 0.0481796265 0.544555664 10 0.544555664 58"></polygon>
+                    <path d="M39.5,22 L39.5,71" id="Line-2" stroke="#1C1B21" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M39.5,22 L0.544555664,10" id="Line-2" stroke="#1C1B21" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M39.5,22 L78,11" id="Line-2" stroke="#1C1B21" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="80px" viewBox="0 0 48 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_track</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Macbook-Half-Size-Copy" transform="translate(-441.000000, -455.000000)">
+            <g id="track" transform="translate(349.000000, 455.000000)">
+                <g id="icon_track" transform="translate(92.000000, 0.000000)">
+                    <ellipse id="Oval" fill="#FFFFFF" cx="24" cy="74" rx="19" ry="6"></ellipse>
+                    <path d="M24.1968197,0.0391159132 C40.0656066,1.66764184 48,8.77941867 48,21.3744464 C48,33.9694741 40.0656066,48.3776247 24.1968197,64.5988981 L24.1968197,65 C24.1310792,64.9332254 24.0654726,64.8664814 24,64.799768 C23.9345274,64.8664814 23.8689208,64.9332254 23.8031803,65 L23.8031803,64.5988981 C7.93439345,48.3776247 2.87094528e-16,33.9694741 0,21.3744464 C0,8.77941867 7.93439345,1.66764184 23.8031803,0.0391159132 L23.8031803,0 C23.8689192,0.00632025965 23.934524,0.0127330895 23.9999949,0.0192384895 C24.0654726,0.0127334195 24.1310792,0.00632042226 24.1968197,0 L24.1968197,0.0391159132 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <circle id="Oval" fill="#2B2A32" cx="24.5" cy="24.5" r="10.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

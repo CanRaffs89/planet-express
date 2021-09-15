@@ -183,7 +183,8 @@ nav {
           max-height: 60px;
           width: 100%; }
         .info-container .info-grid .info-item p {
-          font-size: 16px; } }
+          font-size: 16px;
+          letter-spacing: 6px; } }
 @media (max-width: 768px) {
   .info-container .info-grid {
     flex-direction: column;

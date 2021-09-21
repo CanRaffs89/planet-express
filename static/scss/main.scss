@@ -26,6 +26,18 @@ body {
     height: 100%;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 1260px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
 @import 'navbar';
 @import 'header';
 @import 'info-section';
+@import 'form-section';

@@ -18,27 +18,68 @@
             </div>
         </div>
     </div>
-    <div class="info-container">
-        <div class="info-grid">
-            <div class="info-grid-top">
-                <div class="info-item">
-                    <img src="{{ url_for('static', filename='img/icon_milky_way.svg') }}" alt="" class="info-item-logo" id="info-item-logo-1">
-                    <p>serving the milky way and beyond</p>
+    <div class="flex-container">
+        <div class="info-container">
+            <div class="info-grid">
+                <div class="info-grid-top">
+                    <div class="info-item">
+                        <img src="{{ url_for('static', filename='img/icon_milky_way.svg') }}" alt="" class="info-item-logo" id="info-item-logo-1">
+                        <p>serving the milky way and beyond</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="{{ url_for('static', filename='img/icon_next_day.svg') }}" alt="" class="info-item-logo" id="info-item-logo-2">
+                        <p>next day exoplanet delivery</p>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <img src="{{ url_for('static', filename='img/icon_next_day.svg') }}" alt="" class="info-item-logo" id="info-item-logo-2">
-                    <p>next day exoplanet delivery</p>
+                <div class="info-grid-bottom">
+                    <div class="info-item">
+                        <img src="{{ url_for('static', filename='img/icon_drop_off.svg') }}" alt="" class="info-item-logo" id="info-item-logo-3">
+                        <p>drop off at any interplanetary parcel hub</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="{{ url_for('static', filename='img/icon_track.svg') }}" alt="" class="info-item-logo" id="info-item-logo-4">
+                        <p>track your package across the galaxy</p>
+                    </div>
                 </div>
             </div>
-            <div class="info-grid-bottom">
-                <div class="info-item">
-                    <img src="{{ url_for('static', filename='img/icon_drop_off.svg') }}" alt="" class="info-item-logo" id="info-item-logo-3">
-                    <p>drop off at any interplanetary parcel hub</p>
-                </div>
-                <div class="info-item">
-                    <img src="{{ url_for('static', filename='img/icon_track.svg') }}" alt="" class="info-item-logo" id="info-item-logo-4">
-                    <p>track your package across the galaxy</p>
-                </div>
+        </div>
+        <div class="form-container">
+            <div class="form-inner">
+                <h1>Quick Quote</h1>
+                <form action="/submit" method="POST">
+                    <div class="form-group">
+                        <h3>Enter your email</h3>
+                        <input type="text" name="email" placeholder="your email">
+                    </div>
+                    <div class="form-group">
+                        <h3>Choose destination</h3>
+                        <select name="destination">
+                            <option value="">destination</option>
+                            <option value="mercury">Mercury</option>
+                            <option value="venus">Venus</option>
+                            <option value="mars">Mars</option>
+                            <option value="jupiter">Jupiter</option>
+                            <option value="saturn">Saturn</option>
+                            <option value="uranus">Uranus</option>
+                            <option value="neptune">Neptune</option>
+                            <option value="pluto">Pluto</option>
+                            <option value="ceres">Ceres</option>
+                            <option value="makemake">Makemake</option>
+                            <option value="haumea">Haumea</option>
+                            <option value="eris">Eris</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h3>Parcel weight</h3>
+                        <select name="weight">
+                            <option value="">weight</option>
+                            <option value="light">Light</option>
+                            <option value="medium">Medium</option>
+                            <option value="heavy">Heavy</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Submit" class="button-submit">
+                </form>
             </div>
         </div>
     </div>

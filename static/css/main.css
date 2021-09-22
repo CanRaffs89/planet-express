@@ -14,17 +14,23 @@ body {
   width: 100%;
   background-color: #1C1B21; }
 
+input.text, input[type="text"], input[type="button"], input[type="submit"], input[type="email"], select, option {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
 .container {
   width: 100%;
   height: 100%; }
 
 .flex-container {
+  height: 100vh;
   display: flex;
   justify-content: space-evenly; }
 
 @media (max-width: 1260px) {
   .flex-container {
-    flex-direction: column; } }
+    flex-direction: column;
+    height: auto; } }
 nav {
   width: 100%; }
   nav .nav-top {
@@ -114,15 +120,17 @@ nav {
         font-size: 42px;
         font-weight: 700;
         font-style: italic; }
-      .header-container .header-text .header-text-inner button {
-        height: 60px;
+      .header-container .header-text .header-text-inner .button-large {
+        padding: 15px 0;
         width: 70%;
+        text-align: center;
         background-color: #2B2A32;
         color: #fff;
         font-size: 22px;
         font-family: 'Oswald', sans-serif;
         letter-spacing: 4px;
         text-transform: uppercase;
+        text-decoration: none;
         border: 1px solid #fff;
         border-radius: 10px; }
 
@@ -147,8 +155,8 @@ nav {
         font-size: 20px; }
       .header-container .header-text .header-text-inner #header-text-bottom {
         font-size: 22px; }
-      .header-container .header-text .header-text-inner button {
-        height: 50px;
+      .header-container .header-text .header-text-inner .button-large {
+        padding: 10px 0;
         width: 60%;
         font-size: 12px; } }
 .info-container {
@@ -210,9 +218,12 @@ nav {
   height: 100%;
   width: 50%; }
   .form-container .form-inner {
-    height: 75%;
+    height: 100%;
     width: 75%;
-    margin: 70px auto; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto; }
     .form-container .form-inner h1 {
       color: #fff;
       font-size: 22px;
@@ -223,8 +234,10 @@ nav {
     .form-container .form-inner form {
       display: flex;
       flex-direction: column;
-      height: 100%;
-      margin: 70px auto; }
+      justify-content: space-evenly;
+      height: 75%;
+      width: 75%;
+      margin: 0 auto; }
       .form-container .form-inner form .form-group h3 {
         font-size: 20px;
         font-style: italic;
@@ -232,10 +245,15 @@ nav {
         font-weight: 400;
         text-transform: lowercase; }
       .form-container .form-inner form .form-group input, .form-container .form-inner form .form-group select {
-        height: 35px;
         width: 100%;
         border-radius: 10px;
         margin: 10px 0; }
+      .form-container .form-inner form .form-group input {
+        height: 33px; }
+      .form-container .form-inner form .form-group select {
+        height: 35px;
+        background: #fff;
+        padding: 0 5px; }
       .form-container .form-inner form .button-submit {
         background: #2B2A32;
         color: #fff;
@@ -247,6 +265,27 @@ nav {
         height: 45px;
         width: 60%;
         border-radius: 10px;
+        border: 1px solid #fff;
         margin: 10px auto 0 auto; }
+
+@media (max-width: 1260px) {
+  .form-container {
+    width: 100%; }
+    .form-container .form-inner {
+      margin: 50px auto; }
+      .form-container .form-inner form .form-group {
+        margin-top: 20px; }
+      .form-container .form-inner form .button-submit {
+        margin: 20px auto 0 auto; } }
+@media (max-width: 768px) {
+  .form-container .form-inner h1 {
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .form-container .form-inner form {
+    width: 100%; }
+    .form-container .form-inner form .form-group h3 {
+      font-size: 16px; }
+    .form-container .form-inner form .button-submit {
+      font-size: 12px; } }
 
 /*# sourceMappingURL=main.css.map */

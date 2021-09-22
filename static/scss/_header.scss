@@ -48,15 +48,17 @@
                 font-style: italic;
             }
 
-            button {
-                height: 60px;
+            .button-large {
+                padding: 15px 0;
                 width: 70%;
+                text-align: center;
                 background-color: $grey;
                 color: #fff;
                 font-size: 22px;
                 font-family: 'Oswald', sans-serif;
                 letter-spacing: 4px;
                 text-transform: uppercase;
+                text-decoration: none;
                 border: 1px solid #fff;
                 border-radius: 10px;
             }
@@ -107,8 +109,8 @@
                     font-size: 22px;
                 }
         
-                button {
-                    height: 50px;
+                .button-large {
+                    padding: 10px 0;
                     width: 60%;
                     font-size: 12px;
                 }

@@ -14,7 +14,7 @@
                 <h1 id="header-text-top">our crew is replaceable</h1>
                 <span></span>
                 <h1 id="header-text-bottom">your package isn't</h1>
-                <button>Get a Quote</button>
+                <a href="#quote-form" class="button-large">Get a Quote</a>
             </div>
         </div>
     </div>
@@ -46,10 +46,10 @@
         <div class="form-container">
             <div class="form-inner">
                 <h1>Quick Quote</h1>
-                <form action="/submit" method="POST">
+                <form action="/submit" method="POST" id="quote-form">
                     <div class="form-group">
                         <h3>Enter your email</h3>
-                        <input type="text" name="email" placeholder="your email">
+                        <input type="text" name="email" placeholder=" your email">
                     </div>
                     <div class="form-group">
                         <h3>Choose destination</h3>
@@ -70,7 +70,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <h3>Parcel weight</h3>
+                        <h3>Select parcel weight</h3>
                         <select name="weight">
                             <option value="">weight</option>
                             <option value="light">Light</option>

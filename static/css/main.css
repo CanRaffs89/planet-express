@@ -289,5 +289,24 @@ nav {
       font-size: 16px; }
     .form-container .form-inner form .button-submit {
       font-size: 12px; } }
+.success-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60vh;
+  width: 50%;
+  margin: 0 auto; }
+  .success-message .success-h1, .success-message .success-h2 {
+    text-align: center; }
+  .success-message .success-h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 30px; }
+  .success-message .success-h2 {
+    font-weight: 400;
+    font-size: 28px; }
+  .success-message .button-success {
+    margin: 0 auto;
+    width: 40%; }
 
 /*# sourceMappingURL=main.css.map */

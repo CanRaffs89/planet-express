@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Planet Express | Quote Submitted</title>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    {% include 'navbar.html' %}
+    <h1>Thank you!</h1>
+    <h2>Your quote has been sent to your email address</h2>
+    <a href="{{url_for('index')}}" class="button-large">Back</a>
+</div>
+{% endblock %}

@@ -52,6 +52,14 @@ input.text, input[type="text"], input[type="button"], input[type="submit"], inpu
     border-radius: 10px;
 }
 
+.message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    letter-spacing: 4px;
+}
+
 @media(max-width: 1260px) {
     .flex-container {
         flex-direction: column;

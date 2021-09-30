@@ -38,13 +38,18 @@ def submit():
         email = request.form['email']
         destination = request.form['destination']
         weight = request.form['weight']
+        price = 120
         if email == '' or destination == '' or weight == '':
             return render_template('index.html', message='Please fill out all required fields')
         else:
+            if destination == 'Mercury' or destination == 'Venus' or destination == 'Mars' or destination == 'Jupiter':
+                price = 45
+            if destination == 'Saturn' or destination == 'Uranus' or destination == 'Neptune' or destination == 'Pluto':
+                price = 90
             data = Quote(email, destination, weight)
             db.session.add(data)
             db.session.commit()
-            send_email(email, destination, weight)
+            send_email(email, destination, weight, price)
         return render_template('success.html')
 
 @app.route('/success')

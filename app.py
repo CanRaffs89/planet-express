@@ -4,13 +4,13 @@ from send_email import send_email
 
 app = Flask(__name__)
 
-ENV = 'dev'
+ENV = 'prod'
 if ENV == 'dev':
     app.debug = True
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgrespass@localhost/planex'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = ''
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://ekgucbrioizozn:fd2e5017f9f9d31751c89f5ebaf27158ef655f4a4303ab60cfac13d19bdbae8e@ec2-44-194-201-94.compute-1.amazonaws.com:5432/d2a2rrftjl47b4'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

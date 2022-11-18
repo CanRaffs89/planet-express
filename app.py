@@ -10,7 +10,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgrespass@localhost/planex'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:iya6jv1eKlqQ8d4ahrsb@containers-us-west-90.railway.app:7868/railway'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:KNiNhDxCUFZrTNgOx60k@containers-us-west-90.railway.app:7868/railway'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

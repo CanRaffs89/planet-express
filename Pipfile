@@ -8,6 +8,9 @@ flask = "*"
 psycopg2-binary = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
+pymysql = "*"
+cryptography = "*"
+python-dotenv = "*"
 
 [dev-packages]
 

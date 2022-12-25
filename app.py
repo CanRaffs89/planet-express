@@ -1,16 +1,20 @@
+import os
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from send_email import send_email
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
-ENV = 'prod'
+load_dotenv()
+
+ENV = 'dev'
 if ENV == 'dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgrespass@localhost/planex'
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DEV_DB_URI")
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:KNiNhDxCUFZrTNgOx60k@containers-us-west-90.railway.app:7868/railway'
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("PROD_DB_URI")
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

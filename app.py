@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 load_dotenv()
 
-ENV = 'dev'
+ENV = 'prod'
 if ENV == 'dev':
     app.debug = True
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DEV_DB_URI")
